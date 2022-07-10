@@ -15,6 +15,20 @@ const resolvers = {
             throw new AuthenticationError('Not logged in');
           },
     },
-    
-}
+    Mutation: {
+        addUser: {
+
+        },
+        login: {
+
+        },
+        saveBook: {
+
+        },
+        removeBook: {
+
+        },
+
+    },
+};
 module.exports = resolvers;
